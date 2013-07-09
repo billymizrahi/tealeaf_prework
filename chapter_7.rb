@@ -1,4 +1,4 @@
-/
+=begin
 exercise 1
 
 bottles_at_start = 99
@@ -13,9 +13,9 @@ while bottles_now > 0
 	puts "Take one down, pass it around, " + bottles_now.to_s +
 	" bottles of beer on the wall!"
 end
-/
 
-/
+
+
 exercise 2
 
 while true
@@ -34,9 +34,9 @@ while true
 		puts 'NO, NOT SINCE ' + random_year.to_s + '!' 
 	end
 end
-/
 
-/
+
+
 exercise 3
 
 bye_count = 0
@@ -63,9 +63,9 @@ while true
 		puts 'NO, NOT SINCE ' + random_year.to_s + '!' 
 	end
 end
-/
 
-/
+
+
 exercise 4
 
 puts "Pick a starting year."
@@ -86,4 +86,4 @@ while years <= ending
 
 	years = years + 1
 end
-/
+=end
